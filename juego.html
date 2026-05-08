@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-juego de animación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1 class="minijuego-titulo">Mini-juego</h1>
+    </header>
+    <main>
+        <div id="game-container">
+
+            <!-- Puntuación -->
+            <div id="score-board">Puntuación: <span id="score">0</span></div>
+
+            <!-- Personaje -->
+            <div id="character">👾</div>
+
+            <!-- Obstáculos -->
+            <div id="obstacle">🪐</div>
+
+            <!-- Mensaje de game over -->
+            <div id="game-over" class="hidden">Game over (╥﹏╥)<br><button id="restart"
+                    onclick=" location.reload()">Intentar otra vez</button></div>  
+                    <!-- Cuando pulsas el botón se reinicia la página -->
+        </div>
+    </main>
+
+    <footer>
+        <p>María Hernández Sosa - Lenguaje de marcas 3º Trimestre</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
